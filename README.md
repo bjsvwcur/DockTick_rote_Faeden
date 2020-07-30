@@ -1,1 +1,4 @@
-# rote_Faeden
+# Dokumentenablage "rote Fäden"
+DockTick Dokumentationsverzeichnis
+
+* [**BauGK**]
