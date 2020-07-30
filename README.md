@@ -1,4 +1,4 @@
 # Dokumentenablage "rote Fäden"
 DockTick Dokumentationsverzeichnis
 
-* [**BauGK**]
+* [**BauGK**](https://github.com/bjsvwcur/rote_Faeden/blob/master/BauGK/BauGK.md)
