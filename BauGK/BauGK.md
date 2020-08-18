@@ -3,6 +3,7 @@ Verantwortlicher: Oliver Jeker
 
 ## Beschreibung:
 **Axioma Mandant AfU (BauGK)**
+
 Dieses Dokument beschreibt im Sinne eines roten Fadens, welche Schnittstellen und Geodaten in der Integration der Fachapplikation BauGK wie genutzt werden.
 
 ## Überblick der Fachapplikationsintegration
