@@ -1,4 +1,4 @@
-# BauGK
+# afu BauGK
 Verantwortlicher: Oliver Jeker
 
 ## Beschreibung:
