@@ -15,7 +15,7 @@ Die Daten der Katasterschätzung werden von deren Oracle-DB kopiert und in unser
 * Grundstück nur in der AV vorhanden
 * Grundstück nur in KASO vorhanden
 
-**Gretljob:** https://github.com/sogis/gretljobs/tree/master/agi_av_kaso_abgleich_pub
+**Gretljob agi_av_kaso_abgleich_pub:** https://github.com/sogis/gretljobs/tree/master/agi_av_kaso_abgleich_pub
 
 **Layer Web GIS Client:** "Differenzen AV-KASO" (geschützt)
 
