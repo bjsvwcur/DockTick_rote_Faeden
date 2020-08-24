@@ -21,7 +21,7 @@ ini-File: `H:\BJSVW\Agi\Projekte\AFU\Ablösung INGESO VSB ISBoden Anwendungen\AP
 
 *Spezielles:*
 * Attributbezogene Einschränkungen (DrillDown)
->> Drilldown (Kaskadierung): Mit dieser Funktion können Benutzer "Wertbeziehungs" -Ausdrücke basierend auf dem aktuellen Wert eines anderen Felds in derselben Form erstellen. Wenn der Benutzer den Wert eines Felds ändert, werden die in allen zugehörigen Feldern verfügbaren Auswahlmöglichkeiten so gefiltert, dass sie mit dem neuen Wert übereinstimmen. Dies ermöglicht eine hierarchische Filterstrategie innerhalb eines Formulars.
+> Drilldown (Kaskadierung): Mit dieser Funktion können Benutzer "Wertbeziehungs" -Ausdrücke basierend auf dem aktuellen Wert eines anderen Felds in derselben Form erstellen. Wenn der Benutzer den Wert eines Felds ändert, werden die in allen zugehörigen Feldern verfügbaren Auswahlmöglichkeiten so gefiltert, dass sie mit dem neuen Wert übereinstimmen. Dies ermöglicht eine hierarchische Filterstrategie innerhalb eines Formulars.
 
 Beispiel: Attributtabelle Layer `Fundstelle_Grabung`
 
