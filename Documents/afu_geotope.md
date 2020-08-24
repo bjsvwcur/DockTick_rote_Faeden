@@ -25,11 +25,11 @@ ini-File: `H:\BJSVW\Agi\Projekte\AFU\Ablösung INGESO VSB ISBoden Anwendungen\AP
 
 Beispiel: Attributtabelle Layer `Fundstelle_Grabung`
 
-Wenn beim Attribut `geologisches system von` eine Auswahl getroffen wird, wird die Auswahl bei den Attributen `geologische Serie von` automatisch eingeschränkt.
+Wenn beim Attribut `geologisches system von` eine Auswahl getroffen wird, wird die Auswahl bei den Attributen `geologische Serie von` automatisch auf diese Auswahl eingeschränkt.
 
 ![](https://github.com/bjsvwcur/DockTick_rote_Faeden/blob/master/Documents/afu_geologie_drilldown_2.PNG)
 
-Dafür muss zbeim Attribut `geologische_serie_von` ein Filter gesetzt werden:
+Dafür muss beim Attribut `geologische_serie_von` ein Filter gesetzt werden, welcher sich auf das Attribut `geologisches_system_von` bezieht:
 
 `"geologisches_system" = current_value('geologisches_system_von')`
 
