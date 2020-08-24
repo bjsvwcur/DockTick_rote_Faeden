@@ -21,4 +21,4 @@ Die Daten der Katasterschätzung werden von deren Oracle-DB kopiert und in unser
 
 
 ## Betriebshandbuch:
-Das Betriebshandbuch liegt unter: H:\BJSVW\Agi\GDI\Betrieb\AV_Kaso_Abgleich\Betriebshandbuch.doc
+H:\BJSVW\Agi\GDI\Betrieb\AV_Kaso_Abgleich\Betriebshandbuch.doc
