@@ -17,7 +17,7 @@ Die Daten der Katasterschätzung werden von deren Oracle-DB kopiert und in unser
 
 **Gretljob:** https://github.com/sogis/gretljobs/tree/master/agi_av_kaso_abgleich_pub
 
-**Layer Web GIS Client:** (geschützt) https://geo.so.ch/map/?k=9170ae207
+**Layer Web GIS Client:** "Differenzen AV-KASO" (geschützt)
 
 
 ## Betriebshandbuch:
