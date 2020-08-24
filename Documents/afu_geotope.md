@@ -19,7 +19,8 @@ QGIS Projekt: `H:\BJSVW\Agi\Projekte\AFU\Ablösung INGESO VSB ISBoden Anwendunge
 
 ini-File: `H:\BJSVW\Agi\Projekte\AFU\Ablösung INGESO VSB ISBoden Anwendungen\AP_Datenumbau_Realisiserung\Geotope\Geotop_Erfassung.ini`
 
-### XXX
+**Attributtabellen:**
+xxxxxxx
 
 ### Auswertung:
 Zum Filtern von Attributwerten aus der Pub-DB.
