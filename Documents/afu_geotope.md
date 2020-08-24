@@ -5,7 +5,7 @@ Verantwortliche: Andrea Lüscher
 ## Beschreibung:
 Infolge einer Ablösung des veralteten Servers «srsofaioi4531», mussten die Anwendungen INGESO, IS-Boden und VSB abgelöst werden. Siehe auch Projektmanagementplan: `H:\BJSVW\Agi\Projekte\AFU\Ablösung INGESO VSB ISBoden Anwendungen\Projektmanagment\Projektmanagementplan_v01.docx`.
 
-Die Daten werden mittels einem QGIS Projekt in der Edit-DB erfasst und in einem QGIS-Projekt mit den Daten aus der Pub-DB ausgewertet. Im Web GIS Client werden die Daten aus der Pub-DB abgebildet. Bei einer Datenänderung, werden di aktuellen Daten  von den MA des AFU via eines Greljobs von der Edit-DB in die Pub-DB geschrieben.
+Die Daten werden mittels einem QGIS Projekt in der Edit-DB erfasst und in einem QGIS-Projekt mit den Daten aus der Pub-DB ausgewertet. Im Web GIS Client werden die Daten aus der Pub-DB abgebildet. Bei einer Datenänderung, werden die aktuellen Daten  von den MA des AFU via eines Greljobs von der Edit-DB in die Pub-DB geschrieben.
 
 Damit die Erfassung und Auswertung einfacher ist, gibt es für die Erfassung und die Auswertung jeweils ein eigenes QGIS-Projekt mit einem eigenen QGIS-Profile. In diesem Profile sind nur die Werkzeuge aktiviert, welche wirklich benötigt werden.
 
