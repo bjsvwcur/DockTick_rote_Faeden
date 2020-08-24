@@ -23,17 +23,17 @@ ini-File: `H:\BJSVW\Agi\Projekte\AFU\Ablösung INGESO VSB ISBoden Anwendungen\AP
 * Attributbezogene Einschränkungen (DrillDown)
 > Drilldown (Kaskadierung): Mit dieser Funktion können Benutzer "Wertbeziehungs" -Ausdrücke basierend auf dem aktuellen Wert eines anderen Felds in derselben Form erstellen. Wenn der Benutzer den Wert eines Felds ändert, werden die in allen zugehörigen Feldern verfügbaren Auswahlmöglichkeiten so gefiltert, dass sie mit dem neuen Wert übereinstimmen. Dies ermöglicht eine hierarchische Filterstrategie innerhalb eines Formulars.
 
-Beispiel: Attributtabelle Layer `Fundstelle_Grabung`
+  Beispiel: Attributtabelle Layer `Fundstelle_Grabung`
 
-Wenn beim Attribut `geologisches system von` eine Auswahl getroffen wird, wird die Auswahl bei den Attributen `geologische Serie von` automatisch auf diese Auswahl eingeschränkt.
+  Wenn beim Attribut `geologisches system von` eine Auswahl getroffen wird, wird die Auswahl bei den Attributen `geologische Serie von` automatisch auf diese      Auswahl eingeschränkt.
 
-![](https://github.com/bjsvwcur/DockTick_rote_Faeden/blob/master/Documents/afu_geologie_drilldown_2.PNG)
+  ![](https://github.com/bjsvwcur/DockTick_rote_Faeden/blob/master/Documents/afu_geologie_drilldown_2.PNG)
 
-Dafür muss beim Attribut `geologische_serie_von` ein Filter gesetzt werden, welcher sich auf das Attribut `geologisches_system_von` bezieht:
+  Dafür muss beim Attribut `geologische_serie_von` ein Filter gesetzt werden, welcher sich auf das Attribut `geologisches_system_von` bezieht:
 
-`"geologisches_system" = current_value('geologisches_system_von')`
+  `"geologisches_system" = current_value('geologisches_system_von')`
 
-![](https://github.com/bjsvwcur/DockTick_rote_Faeden/blob/master/Documents/afu_geologie_drilldown_1.PNG)
+  ![](https://github.com/bjsvwcur/DockTick_rote_Faeden/blob/master/Documents/afu_geologie_drilldown_1.PNG)
 
 ### Auswertung:
 Zum Filtern von Attributwerten aus der Pub-DB.
