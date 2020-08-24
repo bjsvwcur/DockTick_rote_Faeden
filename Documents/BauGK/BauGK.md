@@ -6,7 +6,7 @@ Verantwortlicher: Oliver Jeker
 
 Dieses Dokument beschreibt im Sinne eines roten Fadens, welche Schnittstellen und Geodaten in der Integration der Fachapplikation BauGK wie genutzt werden.
 
-## Überblick der Fachapplikationsintegration
+## Überblick der Fachapplikationsintegration:
 
 BauGK nutzt Schnittstellen mit der GDI, um die folgenden Anwendungsfälle (UC) umzusetzen:
 1.	Den Ort (die Punktkoordinaten) eines Geschäftes im Web GIS Client anzuzeigen
@@ -25,7 +25,7 @@ In der folgenden Matrix ist dargestellt, welche Komponenten, Schnittstellen und 
 |4.| |X|X|BauGK schreibt die Geschäfte mittels DataService in das DataSet ch.so.afu.baugk.ccccache (Siehe Kapitel "UC 4").|
 |5.| |X| |Die Zonenzugehörigkeit wird mittels DataService von BauGK abgefragt (Siehe Kapitel 4).|
 
-## UC 1-3: CCC-Service
+## UC 1-3: CCC-Service:
 Für die Anwendungsfälle 1 – 3 kommt der CCC-Service und die Integration des CCC-Service in den Web GIS Client zum Einsatz.
 
 Siehe dazu die [Dokumentation des CCC-Service](https://github.com/sogis/ccc-service/blob/master/docs/user/index.md)
@@ -43,7 +43,7 @@ Um alle relevanten Geschäfte in der Karte anzuzeigen, werden die folgenden Komp
 
 Die Abhängigkeit von BauGK auf ch.so.afu.baugk.ccccache ist in AGDI durch das Modul Axioma Mandant AfU dokumentiert.
 
-## UC5:	Für ein Geschäft relevante Zonen abfragen
+## UC5:	Für ein Geschäft relevante Zonen abfragen:
 
 BauGK nutzt den DataService, um die für ein Geschäft relevanten Zonen abzufragen. Dabei erstellt BauGK eine Bounding Box mit den Koordinaten des Geschäftes im Zentrum, und allfälligen Filterkriterien (where Clause).
 
