@@ -52,6 +52,7 @@ QGIS-ini-File: `H:\BJSVW\Agi\Projekte\AFU\Ablösung INGESO VSB ISBoden Anwendung
 Die Daten werden mittels einem Gretljob von der Edit-DB in die Pub-DB geschrieben.
 
 **Gretljob ausführen:** https://gretl.so.ch/job/afu_geotope_pub/
+
 **Gretljob konfigurieren:** https://github.com/sogis/gretljobs/tree/master/afu_geotope_pub
 
 ### Web GIS Client:
