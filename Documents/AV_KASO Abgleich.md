@@ -23,7 +23,7 @@ Anschliessen werden die Daten so umgebaut (verglichen), dass lediglich die Eintr
 Die Zugriffsdaten für Oracle-DB KASO sind im KeePass abgelegt.
 
 ## Publikation:
-Die Differenztabellen werden für die Katasterschätzung im Web GIS Client mittels einem Objektblatt visualisiert. 
+Die Differenztabellen werden für die Katasterschätzung im Web GIS Client mittels einem Objektblatt (Excelliste) visualisiert. 
 ### DB Schema:
 Pub-DB: `agi_av_kaso_abgleich_pub`
 ### Datenumbau:
@@ -34,12 +34,9 @@ Die Daten werden mittels einem Gretljob von der Edit-DB in die Pub-DB geschriebe
 **Gretljob konfigurieren:** https://github.com/sogis/gretljobs/tree/master/agi_av_kaso_abgleich_pub
 
 ### Web GIS Client:
-Layergruppe: `ch.so.agi.av_kaso_abgleich*`
+geschützte Layergruppe: `ch.so.agi.av_kaso_abgleich*`
 
 Objektblatt: Template im AGDI `av_kaso_abgleich_differenzen`
-
-**Layer Web GIS Client:** "Differenzen AV-KASO" (geschützt)
-
 
 ## Betriebshandbuch:
 H:\BJSVW\Agi\GDI\Betrieb\AV_Kaso_Abgleich\Betriebshandbuch.doc
