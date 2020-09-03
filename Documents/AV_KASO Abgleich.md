@@ -39,4 +39,4 @@ geschützte Layergruppe: `ch.so.agi.av_kaso_abgleich*`
 Objektblatt: Template im AGDI `av_kaso_abgleich_differenzen`
 
 ## Betriebshandbuch:
-H:\BJSVW\Agi\GDI\Betrieb\AV_Kaso_Abgleich\Betriebshandbuch.doc
+`H:\BJSVW\Agi\GDI\Betrieb\AV_Kaso_Abgleich\Betriebshandbuch.doc`
