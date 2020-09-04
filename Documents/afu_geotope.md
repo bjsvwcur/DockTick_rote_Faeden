@@ -2,7 +2,7 @@
 
 Verantwortliche: Andrea Lüscher
 
-## Beschreibung:
+## Beschreibung
 Infolge einer Ablösung des veralteten Servers «srsofaioi4531», mussten die Anwendungen INGESO, IS-Boden und VSB abgelöst werden. Siehe auch Projektmanagementplan: `H:\BJSVW\Agi\Projekte\AFU\Ablösung INGESO VSB ISBoden Anwendungen\Projektmanagment\Projektmanagementplan_v01.docx`.
 
 Die Daten werden mittels einem QGIS Projekt in der Edit-DB erfasst und in einem QGIS-Projekt mit den Daten aus der Pub-DB ausgewertet. Im Web GIS Client werden die Daten aus der Pub-DB abgebildet. Bei einer Datenänderung, werden die aktuellen Daten  von den MA des AFU via eines Greljobs von der Edit-DB in die Pub-DB geschrieben.
@@ -11,18 +11,18 @@ Damit die Erfassung und Auswertung einfacher ist, gibt es für die Erfassung und
 
 Im Web GIS Client kann pro Geotop das Objektblatt "Inventar der geowissenschaftlich schützenswerten Objekte" geöffnet werden. Das Objektblatt wird mittels einem Jasper-Report erstellt.
 
-## Erfassung:
+## Erfassung
 Die Daten werden im QGIS erfasst und in der Edit-DB verwaltet.
-### DB Schema:
+### DB Schema
 Edit-DB: `afu_geotope`
-### Anleitungen Erfassung im QGIS: 
+### Anleitungen Erfassung im QGIS
 `H:\BJSVW\Agi\Projekte\AFU\Ablösung INGESO VSB ISBoden Anwendungen\AP_Datenumbau_Realisiserung\Geotope\Anleitung_Erfassung_Geotope.docx`
-### QGIS Projekt:
+### QGIS Projekt
 QGIS-Projektfile: `H:\BJSVW\Agi\Projekte\AFU\Ablösung INGESO VSB ISBoden Anwendungen\AP_Datenumbau_Realisiserung\Geotope\Geotope_Erfassung_Produktionsumgebung.qgz`
 
 QGIS-ini-File: `H:\BJSVW\Agi\Projekte\AFU\Ablösung INGESO VSB ISBoden Anwendungen\AP_Datenumbau_Realisiserung\Geotope\Geotop_Erfassung.ini`
 
-### Spezielles:
+### Spezielles
 * Attributbezogene Einschränkungen (DrillDown)
 > Drilldown (Kaskadierung): Mit dieser Funktion können Benutzer "Wertbeziehungs" -Ausdrücke basierend auf dem aktuellen Wert eines anderen Felds in derselben Form erstellen. Wenn der Benutzer den Wert eines Felds ändert, werden die in allen zugehörigen Feldern verfügbaren Auswahlmöglichkeiten so gefiltert, dass sie mit dem neuen Wert übereinstimmen. Dies ermöglicht eine hierarchische Filterstrategie innerhalb eines Formulars.
 
@@ -38,24 +38,24 @@ QGIS-ini-File: `H:\BJSVW\Agi\Projekte\AFU\Ablösung INGESO VSB ISBoden Anwendung
 
   ![](https://github.com/bjsvwcur/DockTick_rote_Faeden/blob/master/Documents/afu_geologie_drilldown_1.PNG)
 
-## Publikation:
+## Publikation
 Zum Filtern von Attributwerten aus der Pub-DB.
-### DB Schema:
+### DB Schema
 Pub-DB: `afu_geotope_pub`
-### Anleitungen Auswertung im QGIS: 
+### Anleitungen Auswertung im QGIS:
 `H:\BJSVW\Agi\Projekte\AFU\Ablösung INGESO VSB ISBoden Anwendungen\AP_Datenumbau_Realisiserung\Geotope\Anleitung_Auswertung_Geotope.docx`
-### QGIS Projekt: 
+### QGIS Projekt
 QGIS-Projektfile: `H:\BJSVW\Agi\Projekte\AFU\Ablösung INGESO VSB ISBoden Anwendungen\AP_Datenumbau_Realisiserung\Geotope\Geotope_Auswertung_Produktionsumgebung.qgz`
 
 QGIS-ini-File: `H:\BJSVW\Agi\Projekte\AFU\Ablösung INGESO VSB ISBoden Anwendungen\AP_Datenumbau_Realisiserung\Geotope\Geotop_Auswertung.ini`
-### Datenumbau:
+### Datenumbau
 Die Daten werden mittels einem Gretljob von der Edit-DB in die Pub-DB geschrieben.
 
 **Gretljob ausführen:** https://gretl.so.ch/job/afu_geotope_pub/
 
 **Gretljob konfigurieren:** https://github.com/sogis/gretljobs/tree/master/afu_geotope_pub
 
-### Web GIS Client:
+### Web GIS Client
 Layergruppe: `ch.so.afu.geotope*`
 
 Jasper-Report: Template im AGDI `afu_geotope`
