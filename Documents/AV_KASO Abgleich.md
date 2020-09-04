@@ -29,9 +29,9 @@ Pub-DB: `agi_av_kaso_abgleich_pub`
 ### Datenumbau
 Die Daten werden mittels einem Gretljob von der Edit-DB in die Pub-DB geschrieben.
 
-**Gretljob ausführen:** https://gretl.so.ch/job/agi_av_kaso_abgleich_pub/
+Gretljob ausführen: https://gretl.so.ch/job/agi_av_kaso_abgleich_pub/
 
-**Gretljob konfigurieren:** https://github.com/sogis/gretljobs/tree/master/agi_av_kaso_abgleich_pub
+Gretljob konfigurieren: https://github.com/sogis/gretljobs/tree/master/agi_av_kaso_abgleich_pub
 
 ### Web GIS Client
 geschützte Layergruppe: `ch.so.agi.av_kaso_abgleich*`
