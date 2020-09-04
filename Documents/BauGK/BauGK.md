@@ -5,9 +5,10 @@ Verantwortlicher: Oliver Jeker
 **Axioma Mandant AfU (BauGK)**
 
 Dieses Dokument beschreibt im Sinne eines roten Fadens, welche Schnittstellen und Geodaten in der Integration der Fachapplikation BauGK wie genutzt werden.
+## Erfassung:
+Die Daten werden in der der Fachapplikation BauGK erfasst.
 
-## Überblick der Fachapplikationsintegration:
-
+## Schnittstellen:
 BauGK nutzt Schnittstellen mit der GDI, um die folgenden Anwendungsfälle (UC) umzusetzen:
 1.	Den Ort (die Punktkoordinaten) eines Geschäftes im Web GIS Client anzuzeigen
 2.	Die Koordinaten zu editieren (setzen und nachträglich ändern)
@@ -25,7 +26,7 @@ In der folgenden Matrix ist dargestellt, welche Komponenten, Schnittstellen und 
 |4.| |X|X|BauGK schreibt die Geschäfte mittels DataService in das DataSet ch.so.afu.baugk.ccccache (Siehe Kapitel "UC 4").|
 |5.| |X| |Die Zonenzugehörigkeit wird mittels DataService von BauGK abgefragt (Siehe Kapitel 4).|
 
-## UC 1-3: CCC-Service:
+### UC 1-3: CCC-Service:
 Für die Anwendungsfälle 1 – 3 kommt der CCC-Service und die Integration des CCC-Service in den Web GIS Client zum Einsatz.
 
 Siehe dazu die [Dokumentation des CCC-Service](https://github.com/sogis/ccc-service/blob/master/docs/user/index.md)
@@ -35,16 +36,20 @@ $td
 
 Die BauGK-Spezifischen Json-Konfigurationsparameter sind in der Umgebungsvariable CCC_CLIENT_CONFIG im Schlüsselwort baugk zusammengefasst.
 
-##	UC4: Alle relevanten Geschäfte in der Karte anzeigen
-
+###	UC4: Alle relevanten Geschäfte in der Karte anzeigen:
 Um alle relevanten Geschäfte in der Karte anzuzeigen, werden die folgenden Komponenten verwendet:
 •	Das DataSet ch.so.afu.baugk.ccccache, um die Geschäfte als Kartenebene im Web GIS Client darzustellen.
 •	Der Dataservice, mit welchem Axioma CRUD-Operationen auf ch.so.afu.baugk.ccccache absetzt. BauGK identifiziert sich dabei mittels basic auth Applikationsbenutzer  srvaxisog gegenüber dem SES des AIO. Im AGDI sind die Benutzerberechtigungen für BauGK durch die Rolle afu_baugk konfiguriert.
 
 Die Abhängigkeit von BauGK auf ch.so.afu.baugk.ccccache ist in AGDI durch das Modul Axioma Mandant AfU dokumentiert.
 
-## UC5:	Für ein Geschäft relevante Zonen abfragen:
-
+### UC5:	Für ein Geschäft relevante Zonen abfragen:
 BauGK nutzt den DataService, um die für ein Geschäft relevanten Zonen abzufragen. Dabei erstellt BauGK eine Bounding Box mit den Koordinaten des Geschäftes im Zentrum, und allfälligen Filterkriterien (where Clause).
 
 Auch diese Abhängigkeit von BauGK auf die entsprechenden DataSets ist im AGDI dokumentiert. Modulname: Axioma Mandant AfU
+
+## Publikation:
+### DB Schema:
+Pub-DB: `afu_baugk_ccccache`
+### Web GIS Client:
+Layer: `ch.so.afu.baugk*`
